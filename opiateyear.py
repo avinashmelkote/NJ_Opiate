@@ -1,6 +1,7 @@
 #Find the number of opiate-related overdoses in New Jersey for each year between 2004 and 2014. 
 import re 
 opiate = raw_input("Enter File Name: ")
+if len(opiate) < 1 : opiate = 'njopiate.txt'
 hand = open(opiate)
 d = dict()
 for line in hand:
