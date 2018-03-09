@@ -22,7 +22,7 @@ agelist.sort(reverse=True)
 print "Number of opiate overdoses for each particular age:", agelist
 
 rank = 0
-print "Number of opiate overdoses for each age sorted by number of overdoses: "
+print "Number of opiate overdoses for each age reverse-sorted by number of overdoses, then reverse-sorted by age: "
 for apple, orange in agelist[:100] :
 	rank = rank + 1
 	print rank, '-', "Age:", orange+',', "Number of opiate overdoses:", apple
