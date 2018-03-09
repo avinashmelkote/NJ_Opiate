@@ -1,6 +1,4 @@
 #Find the number of opiate-related overdoses and the 50 towns with the most opiate-related overdoses in 2014 only.
-import re 
-opiate = raw_input("Enter File Name: ")
 hand = open(opiate)
 d = dict()
 overdoses = list()
@@ -24,6 +22,10 @@ for key, val in d.items():
 
 lst.sort(reverse=True)
 
-print "50 towns with the most opiate overdoses in 2014: ", lst[:50]
-#print "50 towns with the least opiate overdoses in 2014: ", lst[-50:]
+#print "50 towns with the most opiate overdoses in 2014 alone: ", lst[:50]
+#print "50 towns with the least opiate overdoses in 2014 alone: ", lst[-50:]
 print "Number of towns with opiate overdoses in 2014 alone: ", len(lst)
+
+print "List of 50 towns with the most opiate overdoses in 2014 only: "
+for apple, orange in lst[:50] :
+	print orange, "-", apple
