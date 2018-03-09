@@ -16,7 +16,7 @@ for line in hand:
 #print lst
 print "First 20 names: ", lst[:20]
 print "Last 20 names: ", lst[-20:]
-print "Number of first names counted by the program: ", len(lst)
+print "Number of first names of opiate overdose victims counted by the program: ", len(lst)
 
 namelist = list()
 for key, val in d.items():
@@ -25,7 +25,7 @@ namelist.sort(reverse=True)
 #print namelist
 
 rank = 0
-print "List of 100 most common names of overdose victims: "
+print "List of 100 most common names: "
 for apple, orange in namelist[:100] :
 	rank = rank + 1
 	print rank, '-', orange, apple
