@@ -24,4 +24,4 @@ print "Number of towns with opiate-related overdoses from 2004 to 2014: ", len(l
 
 print "List of 50 towns with the most opiate overdoses: "
 for apple, orange in lst[:50] :
-	print orange, apple
+	print orange, "-", apple
