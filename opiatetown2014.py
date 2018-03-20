@@ -28,3 +28,7 @@ lst.sort(reverse=True)
 print "50 towns with the most opiate overdoses in 2014: ", lst[:50]
 #print "50 towns with the least opiate overdoses in 2014: ", lst[-50:]
 print "Number of towns with opiate overdoses in 2014 alone: ", len(lst)
+
+print "List of 50 towns with the most opiate overdoses: "
+for apple, orange in lst[:50] :
+	print orange, "-", apple
